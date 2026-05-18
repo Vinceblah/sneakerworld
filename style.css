@@ -12,15 +12,11 @@ a:active,
 a:visited,
 a:link {
     color: rgb(189, 42, 78);
+    text-decoration: none;
 }
 
 #navbar_list {
     display: flex;
-    list-style: none;
-    padding: 0px;
-    margin: 0px;
-    align-items: center;
-
 }
 
 #navbar_title {
@@ -34,17 +30,24 @@ a:link {
 }
 
 .navbar_link {
-    padding-top: 0;
-    text-decoration: none;
-    margin-left: 15px;
+    display: grid;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 3px;
     font-weight: bold;
     font-size: 24px;
+    align-items: center;
     height: 70px;
 }
 
+.navbar_link:hover {
+    background-color: rgb(210, 210, 210, 0.1);
+}
+
 .active {
-    border-bottom: 3px solid rgb(189, 42, 78);
+    border-bottom: 4px solid rgba(189, 42, 78);
     font-weight: bold;
+
 }
 
 .dark {

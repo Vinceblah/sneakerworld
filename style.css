@@ -1,3 +1,64 @@
+body {
+    background-color: rgb(210, 210, 210);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.site {
+    background-color: rgb(255, 255, 255);
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 12px;
+}
+
+h2 {
+    color: rgb(189, 42, 78);
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.text {
+    padding: 15px;
+}
+
+figcaption {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.card {
+    padding: 0px;
+    border: none;
+}
+
+.rightpic {
+    transform: scaleX(-1);
+}
+
+img {
+    border-radius: 12px;
+    width: 100%;
+}
+
+
 a:active,
 a:visited,
 a:link {
@@ -16,6 +77,7 @@ a:link {
     font-weight: bold;
     margin: 0;
     padding: 10px;
+
 }
 
 .navbar_link {
@@ -36,19 +98,9 @@ a:link {
 .active {
     border-bottom: 4px solid rgba(189, 42, 78);
     font-weight: bold;
+
 }
 
-.text {
-    padding: 15px;
+.dark {
+    background-color: rgb(18, 18, 18);
 }
-
-.card {
-    padding: 0px;
-    border: none;
-}
-
-.rightpic {
-    transform: scaleX(-1);
-}
-
-/* Ide jönnek majd a te feladataid alapján kért CSS szabályok (body, nav, .site, .dark, h2, h3, p, figcaption, img) */
